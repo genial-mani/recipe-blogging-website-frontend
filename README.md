@@ -1,70 +1,136 @@
-# Getting Started with Create React App
+# Find A Recipe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+Welcome to **Find A Recipe**, a stunning recipe blogging website designed to bring food enthusiasts together. Our platform allows users to discover, share, and enjoy a plethora of delicious vegetarian recipes. With features like user registration, recipe management, favorites, and weekly email notifications, **Find A Recipe** ensures that you never run out of culinary inspiration. Whether you're a seasoned chef or a home cook, our website offers a user-friendly and feature-rich experience tailored to your needs.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Features](#features)
+- [Installation](#installation)
+  - [Frontend (React)](#frontend-react)
+  - [Backend (Node.js/Express)](#backend-nodejsexpress)
+- [Usage](#usage)
+- [Dependencies](#dependencies)
+  - [Client-side](#client-side)
+  - [Server-side](#server-side)
+- [Configuration](#configuration)
+- [Contributors](#contributors)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **User Registration & Login**: Create an account and log in to access personalized features.
+- **CRUD Operations on Recipes**: Create, read, update, and delete recipes with ease.
+- **Pure Vegetarian Option**: Ensure all recipes are vegetarian.
+- **CRUD Operations on User Details**: Manage your profile and personal information.
+- **Add to Favorites**: Save your favorite recipes for quick access.
+- **Recipe Likes**: View and like your favorite recipes.
+- **Weekly Email Notifications**: Subscribe to receive weekly recipe updates via email.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frontend (React)
 
-### `npm run build`
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/find-a-recipe.git
+    cd find-a-recipe/client
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Start the development server:
+    ```bash
+    npm start
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Backend (Node.js/Express)
 
-### `npm run eject`
+1. Navigate to the server directory:
+    ```bash
+    cd ../server
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Start the server:
+    ```bash
+    npm start
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **Register/Login**: Create an account or log in to your existing account.
+2. **Browse Recipes**: Explore various vegetarian recipes available on the platform.
+3. **Manage Recipes**: Add new recipes, edit existing ones, or delete recipes that you no longer need.
+4. **User Profile**: Update your profile information and manage your account details.
+5. **Favorites**: Add recipes to your favorites for easy access.
+6. **Like Recipes**: Show your appreciation by liking your favorite recipes.
+7. **Subscribe**: Sign up for weekly email notifications to receive the latest recipes directly to your inbox.
 
-## Learn More
+## Dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Client-side
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `@testing-library/jest-dom`: ^5.17.0
+- `@testing-library/react`: ^13.4.0
+- `@testing-library/user-event`: ^13.5.0
+- `axios`: ^1.6.8
+- `javascript-time-ago`: ^2.5.10
+- `quill`: ^2.0.2
+- `react`: ^18.2.0
+- `react-dom`: ^18.2.0
+- `react-icons`: ^5.1.0
+- `react-loader-spinner`: ^6.1.6
+- `react-quill`: ^2.0.0
+- `react-router-dom`: ^6.22.3
+- `react-scripts`: 5.0.1
+- `react-spinners`: ^0.13.8
+- `react-time-ago`: ^7.3.3
+- `web-vitals`: ^2.1.4
+- `prettier`: ^3.2.5
+- `prettier-plugin-tailwindcss`: ^0.5.14
+- `tailwindcss`: ^3.4.3
 
-### Code Splitting
+### Server-side
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- `express`: ^4.19.2
+- `mongoose`: ^8.3.1
+- `jsonwebtoken`: ^9.0.2
+- `nodemailer`: ^6.9.13
+- `node-cron`: ^3.0.3
+- `dotenv`: ^16.4.5
+- `bcryptjs`: ^2.4.3
+- `body-parser`: ^1.20.2
+- `cors`: ^2.8.5
+- `express-fileupload`: ^1.5.0
+- `google-auth-library`: ^9.10.0
+- `googleapis`: ^137.1.0
+- `joi`: ^17.12.3
+- `mailgun-js`: ^0.22.0
+- `morgan`: ^1.10.0
+- `node-mailjet`: ^6.0.5
+- `nodemon`: ^3.1.0
+- `path`: ^0.12.7
+- `uuid`: ^9.0.1
 
-### Analyzing the Bundle Size
+## Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Create a `.env` file in the server directory and add the following environment variables:
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```env
+MONGO_URI=<your_mongo_db_uri>
+PORT=5000
+JWT_SECRET=<your_jwt_secret>
+GOOGLE_CLIENT_ID=<your_google_client_id>
+GOOGLE_CLIENT_SECRET=<your_google_client_secret>
+GOOGLE_REDIRECT_URI=<your_google_redirect_uri>
+GOOGLE_REFRESH_TOKEN=<your_google_refresh_token>
+EMAIL_USER=<your_email_user>
