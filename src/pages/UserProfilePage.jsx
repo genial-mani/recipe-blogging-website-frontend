@@ -17,7 +17,7 @@ const UserProfilePage = () => {
   const [newPassword, setNewPassword] = useState("");
   const [confirmNewPassword, setConfirmNewPassword] = useState("");
   const [error, setError] = useState("");
-  const [successMsg,setSuccessMsg] = useState('');
+  const [successMsg, setSuccessMsg] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
   const [isAvatarTouched, setIsAvatarTouched] = useState(false);
@@ -48,34 +48,34 @@ const UserProfilePage = () => {
         setEmail(email);
         setAvatar(avatar);
         setIsPureVeg(ispureveg);
-        } catch (error) {
-          console.log(error);
-          }
-          };
-          if (token) {
-            getUser();
-            }
-            }, [token, currentUser.id]);
-            
-            const changeAvatarHandler = async (e) => {
-              e.preventDefault();
-              setIsLoading(true);
-              setIsAvatarTouched(false);
-              try {
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    if (token) {
+      getUser();
+    }
+  }, [token, currentUser.id]);
+
+  const changeAvatarHandler = async (e) => {
+    e.preventDefault();
+    setIsLoading(true);
+    setIsAvatarTouched(false);
+    try {
       const postData = new FormData();
       postData.set("avatar", avatar);
       const response = await axios.post(
         `${process.env.REACT_APP_BASE_URL}/users/change-avatar`,
         postData,
         { withCredentials: true, headers: { Authorization: `Bearer ${token}` } }
-        );
-        
-        setSuccessMsg(response?.data)
-        setAvatar(response?.data?.avatar);
-        } catch (error) {
-          console.log(error);
-          } finally {
-            setIsLoading(false);
+      );
+
+      setSuccessMsg(response?.data);
+      setAvatar(response?.data?.avatar);
+    } catch (error) {
+      console.log(error);
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -150,16 +150,13 @@ const UserProfilePage = () => {
             </form>
           </div>
 
-
           {/* form to update user details */}
           <form
             className="update-details-form flex flex-col gap-10 items-center mt-10"
             onSubmit={updateUserDetails}
-            >
-            {successMsg && <SuccessToast message={successMsg}/>}
-            {error && (
-              <ErrorCompo err={error}/>
-            )}
+          >
+            {successMsg && <SuccessToast message={successMsg} />}
+            {error && <ErrorCompo err={error} />}
             <input
               type="text"
               placeholder="Full Name"
