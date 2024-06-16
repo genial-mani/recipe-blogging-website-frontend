@@ -78,23 +78,23 @@ Welcome to **Find A Recipe**, a stunning recipe blogging website designed to bri
 ## Technologies Used
 
 - React
-  <img src="public/icons/react.svg" alt="React" width="50" height="50">
+  <img src="public/icons/react.svg" alt="React" width="30" height="30">
 - JavaScript
-  <img src="public/icons/js.svg" alt="React" width="50" height="50">
+  <img src="public/icons/js.svg" alt="React" width="30" height="30">
 - CSS
-  <img src="public/icons/css.svg" alt="TMDb" width="50" height="50">
+  <img src="public/icons/css.svg" alt="TMDb" width="30" height="30">
 - TailwindCSS
-  <img src="public/icons/tailwind.svg" alt="TMDb" width="50" height="50">
+  <img src="public/icons/tailwind.svg" alt="TMDb" width="30" height="30">
 - NodeJs
-  <img src="public/icons/Node.svg" alt="TMDb" width="50" height="50">
+  <img src="public/icons/Node.svg" alt="TMDb" width="30" height="30">
 - ExpressJS
-  <img src="public/icons/express.svg" alt="TMDb" width="50" height="50">
+  <img src="public/icons/express.svg" alt="TMDb" width="30" height="30">
 - MongoDB
-  <img src="public/icons/mongo.svg" alt="TMDb" width="50" height="50">
+  <img src="public/icons/mongo.svg" alt="TMDb" width="30" height="30">
 - JWT Authentication
-  <img src="public/icons/jwt.svg" alt="TMDb" width="50" height="50">
+  <img src="public/icons/jwt.svg" alt="TMDb" width="30" height="30">
 - Cloudinary
-  <img src="public/icons/cloudinary.svg" alt="TMDb" width="50" height="50">
+  <img src="public/icons/cloudinary.svg" alt="TMDb" width="30" height="30">
 
 ## Configuration
 
