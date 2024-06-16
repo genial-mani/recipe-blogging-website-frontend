@@ -9,6 +9,17 @@ Welcome to **Find A Recipe**, a stunning recipe blogging website designed to bri
 
 - Check out the live demo: 🔗 [Live Link](https://recipe-blogging-website-frontend.vercel.app/)
 
+## Screenshots
+
+![Screenshot 1](public/images/Screenshot%202024-06-14%20121847.png)
+![Screenshot 2](public/images/Screenshot%202024-06-14%20121933.png)
+![Screenshot 3](public/images/Screenshot%202024-06-14%20121954.png)
+![Screenshot 4](public/images/Screenshot%202024-06-14%20122354.png)
+![Screenshot 5](public/images/Screenshot%202024-06-14%20122450.png)
+![Screenshot 6](public/images/Screenshot%202024-06-14%20122726.png)
+![Screenshot 7](public/images/Screenshot%202024-06-14%20122824.png)
+
+
 
 ## Table of Contents
 
