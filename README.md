@@ -77,55 +77,24 @@ Welcome to **Find A Recipe**, a stunning recipe blogging website designed to bri
 
 ## Technologies Used
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center;">
-
-<div style="border: 1px solid white; padding: 10px; margin: 10px; display: flex; align-items: center; background-color: white;">
-  <p style="margin: 0; padding-right: 10px;">React</p>
+- React
   <img src="public/icons/react.svg" alt="React" width="20" height="20">
-</div>
-
-<div style="border: 1px solid white; padding: 10px; margin: 10px; display: flex; align-items: center; background-color: white;">
-  <p style="margin: 0; padding-right: 10px;">JavaScript</p>
-  <img src="public/icons/js.svg" alt="JavaScript" width="20" height="20">
-</div>
-
-<div style="border: 1px solid white; padding: 10px; margin: 10px; display: flex; align-items: center; background-color: white;">
-  <p style="margin: 0; padding-right: 10px;">CSS</p>
-  <img src="public/icons/css.svg" alt="CSS" width="20" height="20">
-</div>
-
-<div style="border: 1px solid white; padding: 10px; margin: 10px; display: flex; align-items: center; background-color: white;">
-  <p style="margin: 0; padding-right: 10px;">TailwindCSS</p>
-  <img src="public/icons/tailwind.svg" alt="TailwindCSS" width="20" height="20">
-</div>
-
-<div style="border: 1px solid white; padding: 10px; margin: 10px; display: flex; align-items: center; background-color: white;">
-  <p style="margin: 0; padding-right: 10px;">NodeJs</p>
-  <img src="public/icons/Node.svg" alt="NodeJs" width="20" height="20">
-</div>
-
-<div style="border: 1px solid white; padding: 10px; margin: 10px; display: flex; align-items: center; background-color: white;">
-  <p style="margin: 0; padding-right: 10px;">ExpressJS</p>
-  <img src="public/icons/express.svg" alt="ExpressJS" width="20" height="20">
-</div>
-
-<div style="border: 1px solid white; padding: 10px; margin: 10px; display: flex; align-items: center; background-color: white;">
-  <p style="margin: 0; padding-right: 10px;">MongoDB</p>
-  <img src="public/icons/mongo.svg" alt="MongoDB" width="20" height="20">
-</div>
-
-<div style="border: 1px solid white; padding: 10px; margin: 10px; display: flex; align-items: center; background-color: white;">
-  <p style="margin: 0; padding-right: 10px;">JWT Authentication</p>
-  <img src="public/icons/jwt.svg" alt="JWT" width="20" height="20">
-</div>
-
-<div style="border: 1px solid white; padding: 10px; margin: 10px; display: flex; align-items: center; background-color: white;">
-  <p style="margin: 0; padding-right: 10px;">Cloudinary</p>
-  <img src="public/icons/cloudinary.svg" alt="Cloudinary" width="20" height="20">
-</div>
-
-</div>
-
+- JavaScript
+  <img src="public/icons/js.svg" alt="React" width="20" height="20">
+- CSS
+  <img src="public/icons/css.svg" alt="TMDb" width="20" height="20">
+- TailwindCSS
+  <img src="public/icons/tailwind.svg" alt="TMDb" width="20" height="20">
+- NodeJs
+  <img src="public/icons/Node.svg" alt="TMDb" width="20" height="20">
+- ExpressJS
+  <img src="public/icons/express.svg" alt="TMDb" width="20" height="20">
+- MongoDB
+  <img src="public/icons/mongo.svg" alt="TMDb" width="20" height="20">
+- JWT Authentication
+  <img src="public/icons/jwt.svg" alt="TMDb" width="20" height="20">
+- Cloudinary
+  <img src="public/icons/cloudinary.svg" alt="TMDb" width="20" height="20">
 
 ## Configuration
 
