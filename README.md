@@ -4,6 +4,12 @@
 
 Welcome to **Find A Recipe**, a stunning recipe blogging website designed to bring food enthusiasts together. Our platform allows users to discover, share, and enjoy a plethora of delicious vegetarian recipes. With features like user registration, recipe management, favorites, and weekly email notifications, **Find A Recipe** ensures that you never run out of culinary inspiration. Whether you're a seasoned chef or a home cook, our website offers a user-friendly and feature-rich experience tailored to your needs.
 
+
+## Live Demo
+
+- Check out the live demo: [Live Link](https://recipe-blogging-website-frontend.vercel.app/)
+
+
 ## Table of Contents
 
 - [Features](#features)
