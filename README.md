@@ -75,51 +75,26 @@ Welcome to **Find A Recipe**, a stunning recipe blogging website designed to bri
 6. **Like Recipes**: Show your appreciation by liking your favorite recipes.
 7. **Subscribe**: Sign up for weekly email notifications to receive the latest recipes directly to your inbox.
 
-## Dependencies
+## Technologies Used
 
-### Client-side
-
-- `@testing-library/jest-dom`: ^5.17.0
-- `@testing-library/react`: ^13.4.0
-- `@testing-library/user-event`: ^13.5.0
-- `axios`: ^1.6.8
-- `javascript-time-ago`: ^2.5.10
-- `quill`: ^2.0.2
-- `react`: ^18.2.0
-- `react-dom`: ^18.2.0
-- `react-icons`: ^5.1.0
-- `react-loader-spinner`: ^6.1.6
-- `react-quill`: ^2.0.0
-- `react-router-dom`: ^6.22.3
-- `react-scripts`: 5.0.1
-- `react-spinners`: ^0.13.8
-- `react-time-ago`: ^7.3.3
-- `web-vitals`: ^2.1.4
-- `prettier`: ^3.2.5
-- `prettier-plugin-tailwindcss`: ^0.5.14
-- `tailwindcss`: ^3.4.3
-
-### Server-side
-
-- `express`: ^4.19.2
-- `mongoose`: ^8.3.1
-- `jsonwebtoken`: ^9.0.2
-- `nodemailer`: ^6.9.13
-- `node-cron`: ^3.0.3
-- `dotenv`: ^16.4.5
-- `bcryptjs`: ^2.4.3
-- `body-parser`: ^1.20.2
-- `cors`: ^2.8.5
-- `express-fileupload`: ^1.5.0
-- `google-auth-library`: ^9.10.0
-- `googleapis`: ^137.1.0
-- `joi`: ^17.12.3
-- `mailgun-js`: ^0.22.0
-- `morgan`: ^1.10.0
-- `node-mailjet`: ^6.0.5
-- `nodemon`: ^3.1.0
-- `path`: ^0.12.7
-- `uuid`: ^9.0.1
+- React
+  <img src="public/icons/react.svg" alt="React" width="20" height="20">
+- JavaScript
+  <img src="public/icons/js.svg" alt="React" width="20" height="20">
+- CSS
+  <img src="public/icons/css.svg" alt="TMDb" width="20" height="20">
+- TailwindCSS
+  <img src="public/icons/tailwind.svg" alt="TMDb" width="20" height="20">
+- NodeJs
+  <img src="public/icons/Node.svg" alt="TMDb" width="20" height="20">
+- ExpressJS
+  <img src="public/icons/express.svg" alt="TMDb" width="20" height="20">
+- MongoDB
+  <img src="public/icons/mongo.svg" alt="TMDb" width="20" height="20">
+- JWT Authentication
+  <img src="public/icons/jwt.svg" alt="TMDb" width="20" height="20">
+- Cloudinary
+  <img src="public/icons/cloudinary.svg" alt="TMDb" width="20" height="20">
 
 ## Configuration
 
