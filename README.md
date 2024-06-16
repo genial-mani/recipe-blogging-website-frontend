@@ -1,4 +1,4 @@
-# Find A Recipe
+# Find A Recipe 😋
 
 ## Introduction
 
@@ -28,7 +28,7 @@ Welcome to **Find A Recipe**, a stunning recipe blogging website designed to bri
 - **Recipe Likes**: View and like your favorite recipes.
 - **Weekly Email Notifications**: Subscribe to receive weekly recipe updates via email.
 
-## Installation
+## Installation 🔩
 
 ### Frontend (React)
 
@@ -65,17 +65,17 @@ Welcome to **Find A Recipe**, a stunning recipe blogging website designed to bri
     npm start
     ```
 
-## Usage
+## Usage 
 
-1. **Register/Login**: Create an account or log in to your existing account.
+1. **Register/Login** : Create an account or log in to your existing account.
 2. **Browse Recipes**: Explore various vegetarian recipes available on the platform.
 3. **Manage Recipes**: Add new recipes, edit existing ones, or delete recipes that you no longer need.
 4. **User Profile**: Update your profile information and manage your account details.
-5. **Favorites**: Add recipes to your favorites for easy access.
+5. **Favorites** ❤️: Add recipes to your favorites for easy access.
 6. **Like Recipes**: Show your appreciation by liking your favorite recipes.
-7. **Subscribe**: Sign up for weekly email notifications to receive the latest recipes directly to your inbox.
+7. **Subscribe** : Sign up for weekly email notifications to receive the latest recipes directly to your inbox.
 
-## Technologies Used
+## Technologies Used 🧑🏻‍💻
 
 - React
   <img src="public/icons/react.svg" alt="React" width="30" height="30">
